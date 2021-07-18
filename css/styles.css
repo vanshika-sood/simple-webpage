@@ -1,0 +1,96 @@
+body{
+   background-color: #6648B1;
+  background-image: url(../images/bg-desktop.svg);
+}
+
+
+.image{
+
+  padding: 50px 30px;
+
+
+}
+
+.main-section{
+  padding: 20px 30px;
+}
+
+h2{
+
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+font-size: 3rem;
+color: white;
+padding-top: 30px;
+padding-left: 20px;
+line-height: 4rem;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #D8D8D8;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.footer{
+
+  padding: 80px 30px;
+}
+
+.icons-col{
+  padding-right: 80px;
+  color: white;
+  text-align: right;
+}
+
+.icons{
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 30%;
+
+}
+
+.icons:hover{
+  color: #FC92E3;
+}
+
+.register-button{
+  margin-left: 20px;
+  width: 25%;
+  height: 10%;
+  border-radius: 20%;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  color:  #6648B1;
+  font-weight: bolder;
+
+}
+
+ .register-button:hover{
+
+  background-color: #FC92E3;
+  color: white;
+}
+
+@media screen and (max-width:1028px){
+
+.main-section{
+  text-align: center;
+
+}
+.main-img{
+  width: 70%;
+}
+.footer{
+  margin-top: 80px;
+}
+
+.icons{
+  padding-right: 35px;
+}
+
+}
